@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10">
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:id="@+id/tid2"
+        android:text="Kl.22-24.00"/>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:textSize="15sp"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:id="@+id/temp2"
+        android:layout_weight="2" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/bilde2"
+        android:src="@drawable/y06d"
+        android:layout_weight="4" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+        android:layout_weight="4">
+
+        <TextView
+            android:id="@+id/vindretn2"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:text="Vindtype2"
+            android:textAlignment="center"
+            android:paddingTop="5dp"
+            android:textSize="10sp" />
+        <TextView
+            android:id="@+id/vindstrk2"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:text="Vindretning"
+            android:textAlignment="center"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
